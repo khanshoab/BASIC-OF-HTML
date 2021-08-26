@@ -1,0 +1,16 @@
+/*inside style attribute > id slecter > class slecter > element slecter */
+
+
+
+h1{
+    color: brown;
+}
+h1.h1class{
+    color: red;
+}
+.h2class{
+    color: hotpink;
+}
+/*#h1id{
+    color: green;
+}*/

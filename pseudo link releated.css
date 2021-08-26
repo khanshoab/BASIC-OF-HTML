@@ -1,0 +1,25 @@
+
+
+/*  link , visited , hover , active  always write in this manner */
+/*a:hover {
+    color: green;
+} */
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: green;
+}
+p:hover{
+    color: green;
+}
+p:active{
+    background: grey;
+}

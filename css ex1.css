@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header{
+    background-color: rgb(128, 73, 73);
+}
+.main-section{
+    background-color: rgb(124, 124, 158);
+}
+.dod{
+    color: chartreuse;
+}
+span{
+    background-color: crimson;
+    color:cyan ;
+}

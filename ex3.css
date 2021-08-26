@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+h1{
+    background: rgb(145, 135, 135);
+    text-align: center;
+    padding: 15px 0px;
+}
+section.about-me{
+    border: 2px solid rgb(20, 192, 20);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+section.about-rose{
+    border: 2px solid rgb(5, 182, 5);
+    padding: 10px;
+}
+section h3{
+    text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+/* a{
+    color: green;
+    border:2px solid red;
+    margin: 150px;
+    height: 100px;
+    width: 200px;
+}
+*/
+a{
+    border: 2px solid red;
+    display: inline-block; /* when we use inline-block it gives the freedom to use any element given below*/
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+
+}

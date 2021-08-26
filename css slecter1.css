@@ -1,0 +1,22 @@
+
+ header{  
+    background-color: brown;
+}
+section.my-articles{
+    background-color: rgb(250, 6, 189);
+}
+header p{
+    color: red;
+}
+li a{
+    color: yellow;
+}
+section.my-articles h2+p{
+    color: green;
+}
+h2+p{ 
+    color: violet;
+}
+ul+p{
+    color: white;
+}

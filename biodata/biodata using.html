@@ -1,0 +1,78 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bio Data Creation Form</title>
+</head>
+<body bgcolor="gry">
+	<center>
+	<h1>BIO DATA</h1>
+	<form method="GET">
+		<table cellpadding="20px" bgcolor="yellow">
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fname" autofocus="autofocus" required="required"></td>
+			</tr>
+			<tr>
+				<td>Middle Name:</td>
+				<td><input type="text" name="mname"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td>Date Of Birth:</td>
+				<td><input type="date" name="date"></td>
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input type="number" name="age"></td>
+			</tr>
+			<tr>
+				<td>Father's/Mother's Name:</td>
+				<td><input type="text" name="pname"></td>
+			</tr>
+			<tr>
+				<td>Job Title:</td>
+				<td><input type="text" name="job_title"></td>
+			</tr>
+			<tr>
+				<td>Education qualifaction</td>
+				<td><select>
+					<option>select</option>
+					<option>10<sup>th</sup></option>
+					<option>12<sup>th</sup></option>
+					<option>Graduation</option>
+					<option>Master</option>
+				</select> </td>
+			</tr>
+			<tr>
+				<td>Work Experience</td>
+				<td><textarea placeholder="Input your work experience here:"></textarea></td>
+			</tr>
+			<tr>
+				<td>Skills and Interest</td>
+				<td><textarea placeholder="Input your skills and interest here:"></textarea></td>
+			</tr>
+			<tr>
+				<td>Phone:</td>
+				<td><input type="text" name="phone" placeholder="10 digit number "></td>
+			</tr>
+			<tr>
+            <tr>
+                <td>Your Favourite Game:</td>
+                <td><input type="text" name="text" placeholder="Favourite Game"></td>
+            </tr>
+				<td>Email:</td>
+				<td><input type="Email" name="email" placeholder="abc@gmail.com"></td>
+			</tr>		
+			<tr>
+				<td>Upload Photo:</td>
+				<td><input type="file" name="photo" accept="image/*"></td>
+			</tr>	          
+		</table><br>
+		<input type="submit" name="submit" Value="Create" formaction="form_link.html">
+	</form>
+</body>
+</html>

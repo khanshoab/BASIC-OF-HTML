@@ -1,0 +1,19 @@
+hr{
+    width: 500px;
+    border: 0.5px dotted black;
+    margin-left: 0;
+}
+.box1{
+    box-sizing: border-box;  /* it is important*/
+    width: 500px;
+    background: lightblue;
+    border: 10px solid red;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.box2{
+    width: 500px;
+    background: lightblue;
+    border: 10px solid red;
+    padding: 50px;
+}

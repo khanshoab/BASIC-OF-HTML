@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;  
+}
+.all{
+    border: 10px solid green;
+}
+.motazth{
+    width: 25%;
+    background-color: aqua;
+    float: left;
+    padding: 20px;
+}
+.notazth{
+    width: 25%;
+    background-color: rgb(235, 5, 235);
+    float: left;
+    padding: 20px;
+}
+.clearfix{
+    width: 25%;
+    background-color: azure;
+    float: left;
+    padding: 20px;
+}
+.rollzth{
+    width: 25%;
+    background-color: blueviolet;
+    float: left;
+    padding: 20px;
+}
+.all::after{
+    content: "";
+    display: block;
+    clear: both;
+}

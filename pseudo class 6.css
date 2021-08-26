@@ -1,0 +1,20 @@
+/* body :not(p) {
+    color: red;
+} 
+
+body :not(.cont) {
+    color: red;
+    background:lightblue;
+} */
+
+ /* div:empty {
+    background: lightcoral;
+    border: 2px solid rebeccapurple;
+    height: 100px;
+    width: 100px;
+} */
+
+:root{
+    background: lightgrey;
+    color: aqua;
+}

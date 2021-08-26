@@ -1,0 +1,14 @@
+html{
+    font-size: 10px;
+    font-size: 62.5%;
+}
+.son1{
+    font-size: 2rem;
+}
+.son2{
+    font-size: 3rem;
+    border: 2rem solid red;
+    margin: 0.4rem;
+    padding: 2.5rem;
+
+}
